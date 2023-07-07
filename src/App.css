@@ -1,0 +1,107 @@
+*{
+  
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #24232b;
+
+}
+
+.App{
+  background-color: #24232b;
+  padding: 24px;
+
+}
+
+.header{
+
+  color: white;
+  display: flex;
+  background-color: #24232b;
+  justify-content : center;
+  font-size: 30px;
+  font-weight:800;
+  padding-bottom: 25px ;
+
+}
+
+button{
+
+   padding: 10px;
+   border-radius: 7px;
+   background-color: #2a8b8b;
+   color: white;
+   border: none;
+   font-weight: 800;
+   text-transform: uppercase;
+   cursor: pointer;
+
+}
+.copyBtn{
+  height: 33px;
+  font-size: 10px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 10px;
+
+}
+.strength{
+
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+.pswds{
+
+  padding: 20px;
+  width: 100%;
+  display: flex;
+
+}
+.charL{
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 30px;
+
+}
+
+.charL span{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+.checkBoxes{
+
+  display: grid;
+  grid-template-columns :auto auto;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+
+}
+.checkBoxes div{
+
+  display: flex;
+  gap : 5px;
+  padding-bottom: 25px;
+}
+.generateBtn{
+  width: 100%;
+  font-size: 20px;
+  
+  padding: 15px;
+}
+.ErrorMessage{
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 700;
+  color: red;
+  text-align: center;
+  padding-bottom: 20px;
+
+}
